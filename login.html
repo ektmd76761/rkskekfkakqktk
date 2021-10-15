@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>뚜닥이 페이지</title>
+  </head>
+  <body>
+   뚜닥이 페이집 입니다.
+    <br><br><br>
+
+     <input type="text" placeholder="뚜닥이 풀네임" id="userid"><br> 
+    <input type="password" placeholder="뚜닥이가 좋아하는자세는?" id="userpw">
+    <input type="button" value="로그인" id="signinButton">
+
+
+  </body>
+
+  <script type="text/javascript">
+    console.log("fighting!");
+    console.log(document); // html 태그 전체를 콘솔에 띄워주자.
+
+    var signinButton = document.getElementById("signinButton") // 버튼을 만들고.
+    signinButton.addEventListener('click', signinFunc) // 'click'이란 id의 버튼을 누르면 signinFunc 함수를 실행.
+
+    function signinFunc () {
+      var userid = document.getElementById("userid").value; // userid 의 값을 받아와 넣음.
+      var userpw = document.getElementById("userpw").value; // userpw 의 값을 받아와 넣음.
+
+
+      if(userid == "홍고추부각" && userpw == "6974") {
+        alert("홍고추부각!!");
+        console.log("홍고추 부각.");
+      } else {
+        alert("성공");
+        console.log("ㅋㅋ ㅂㅅ.");
+      }
+
+
+    }
+
+  </script>
+
+
+</html>

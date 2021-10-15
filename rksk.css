@@ -1,0 +1,68 @@
+h6{
+    text-align: center;
+    color: darkred;
+    font-size: 40px;
+}
+div{
+    margin: 30px;
+}
+  h1 {
+      text-align:left;
+  }
+  h2{
+   text-align: center;
+  font-size: larger;
+   margin:80px;
+  }
+.dksl{
+  display: flex;
+    margin: 80px;
+}
+.dksl > a{
+    margin-right:30px ;
+}
+.header{
+    width:1280px;
+    margin:auto;
+    background-color: blue;
+    display: flex;
+    color: black;
+}
+
+.nav{
+    display: flex;
+   color: white;
+   text-decoration: none;
+}
+.nav >li {
+    margin-left: 84px;
+    color: white;
+    text-decoration: none;
+  
+}
+a{
+    
+    text-decoration: none;
+     color:red;
+}
+
+h3{
+    text-align: center;
+     color: red;
+    position: relative;
+}
+body{
+    background-image: url(백설공주.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%100%;
+}
+h4{
+    text-align: right;
+    color: red;
+    display: flex;
+}
+h5{
+    text-align: left;
+    font-size: 30px;
+    float: right;
+}
